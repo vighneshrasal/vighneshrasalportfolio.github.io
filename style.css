@@ -21,40 +21,43 @@
 }
 
 .news-name {
+    margin-bottom: 10px;
     display: flex;
-    justify-content:space-between
+    justify-content:space-evenly;
 }
 
 .news-name-center h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 105px;
+    font-size: 7.3rem;
 }
 
 .news-name-left {
-    width: 200px;
-    font-size: 20px;
+    width: 12rem;
+    font-size: 1.3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 38px;
     margin-bottom: 28px;
+    padding: 5px;
     text-align: center;
     border: 2px solid black;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .news-name-right {
-    width: 175px;
+    width: 10rem;
     margin-top: 38px;
 }
 
 .news-name-right h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .news-name-right p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .date-line hr {
@@ -69,19 +72,20 @@
 
 .birthdate span {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     padding-top: 2px; padding-bottom: 2px;
 }
 
 .frontpage-title h1 {
     font-family: 'Vollkorn', serif;
-    font-size: 60px;
+    font-size: 380%;
     text-align: center;
     padding-top: 20px;
 }
 
 .main-content {
     display: flex;
+    justify-content: space-evenly;
     margin-bottom: 10px;
 }
 
@@ -97,13 +101,13 @@
 
 #pic-credit {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: right;
 }
 
 .center-image figcaption {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 0.975rem;
     text-align: center;
 }
 
@@ -123,20 +127,20 @@
 .skills h2{
     text-align: center;
     font-family:'Bebas Neue', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .skills hr{
     border: 1px solid gray;
-    width: 150px;
+    width: 9.375rem;
 }
 
 .skills-list p{
     margin-top: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
+    font-size: 1.1rem;
 }
 
 .skills-list ol{
@@ -145,14 +149,14 @@
 
 .skills-list li{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-top: 10px; padding-bottom: 10px;
 }
 
 .image-skills{
     display: flex;
-    justify-content: space-around;
-    margin-top: 10px; margin-left: 10px;
+    justify-content: space-evenly;
+    margin-top: 10px;
     text-decoration: none;
 }
 
@@ -161,28 +165,27 @@
 }
 
 .skill-font p{
-    font-size: 17px;
+    font-size: 1.09rem;
 }
 
 .middle-skills img{
-    width: 200px;
+    width: 12.5rem;
     margin: 10px;
 }
 
 .center-image-left {
     padding-top: 15px;
     margin-right: 20px;
-    width: 400px;
+    width: 25rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-left: 30px; */
 }
 
 .center-image-left h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -190,7 +193,7 @@
 .center-image-right {
     padding-top: 15px;
     /* margin-right: 20px; */
-    width: 400px;
+    width: 25rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -200,7 +203,7 @@
 
 .center-image-right h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -212,25 +215,25 @@
 
 .center-image-right hr {
     border: 1px solid gray;
-    width: 150px;
+    width: 9.375rem;
 }
 
 .center-image-left h3 {
     padding-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1.562rem;
     text-align: center;
     padding-bottom: 15px;
 }
 
 #short-hr {
-    width: 125px;
+    width: 7.812rem;
 }
 
 .center-image-right h3 {
     padding-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1.562rem;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -245,7 +248,7 @@
     text-justify: inter-word;
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
+    font-size: 1.062rem;
 }
 
 .center-image-right h5 {
@@ -258,11 +261,11 @@
     text-justify: inter-word;
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
+    font-size: 1.062rem;
 }
 
 #photo-two{
-    width: 200px;
+    width: 12.5rem;
     float: right;
     margin-left: 10px; margin-top: 10px; margin-bottom: 10px;
 }
@@ -274,7 +277,7 @@
 }
 
 .dots img{
-    width: 75px;
+    width: 4.687rem;
 }
 
 .socials{
@@ -284,7 +287,7 @@
 }
 
 .socials img{
-    width: 30px;
+    width: 1.875rem;
     padding-left: 7px; padding-right: 7px;
 }
 
