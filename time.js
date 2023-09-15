@@ -3,6 +3,11 @@ let userName = prompt("ENTER YOUR NAME");
 let date = new Date();
 const options = {weekday: 'short', year : 'numeric', month: 'short', day: 'numeric'};
 
+while(userName.length > 30){
+    alert("Name Too Long!!");
+    userName = prompt("ENTER YOUR NAME AGAIN");
+}
+
 let namestorage = sessionStorage.setItem("Name", userName);
 
 if(userName != ""){
