@@ -173,6 +173,10 @@
     margin: 10px;
 }
 
+.bottom-skills{
+    display: flex;
+}
+
 .center-image-left {
     padding-top: 15px;
     margin-right: 20px;
@@ -294,4 +298,10 @@
 .page-no{
     text-align: right;
     padding-top: 10px;
+}
+
+@media(max-width:1200px){
+    .news-name-center h1{
+        font-size: 6rem;
+    }
 }
